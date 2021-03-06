@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Alyona Maslova's CV</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="centered">
+
+<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/274/woman-technologist_1f469-200d-1f4bb.png" alt="ava">
+
+<h1>Alyona Maslova</h1>
+
+<h2>Contact me</h2>
+
+<strong>Discord</strong>: NovemberRain#2713
+
+<h2>Profile</h2>
+
+<p>Junior web developer.
+I like self-study, but I also love teamwork.</p>
+
+<h2>Skills</h2>
+
+<h3>Programming languages</h3>
+<ul>
+  <li>JavaScript</li>
+  <li>Python</li>
+  <li>PHP</li>
+</ul>
+
+<h3>Version control systems</h3>
+<ul>
+  <li>Git</li>
+</ul>
+
+<h3>Other</h3>
+
+<ul>
+  <li>CSS</li>
+  <li>HTML</li>
+  <li>Bootstrap</li>
+</ul>
+
+<h2>Code Examples</h2>
+
+<ul>
+  <li>
+    <a href="https://github.com/CarmineSunset/Profitable-App-Profiles-for-the-App-Store-and-Google-Play-Markets">Profitable App Profiles for the App Store and Google Play Markets</a>
+  </li>
+  <li>
+    <a href="https://github.com/CarmineSunset/Exploring-Hacker-News-Posts">Exploring Hacker News Post</a>
+  </li>
+  <li>
+    <a href="https://github.com/CarmineSunset/JSMovieDB">JSMovieDB</a>
+  </li>
+</ul>
+
+<code>
+  movieForm.addEventListener('submit', (event) => {
+           event.preventDefault();
+
+           let addFilm = movieInput.value;
+           const isFavourite = checkbox.checked;
+
+           if (addFilm) {
+              if (addFilm.length > 21) {
+                  addFilm = `${addFilm.substring(0, 22)}...`;
+              }
+
+           if (isFavourite) {
+               console.log("Добавляем любимый фильм");
+           }
+
+              movieDB.movies.push(addFilm);
+              arrSort(movieDB.movies);
+              addToMovieList(movieDB.movies, movieList);
+           }
+
+           event.target.reset(); //обращаемся к самому элементу, на котором происходит событие
+  });
+
+</code>
+
+
+<h2>Work Expiriencs</h2>
+
+<ul>
+  <li>The complete web development bootcamp by Angela Yu</li>
+  <li>Data Quest: Data analysis with Python</li>
+</ul>
+
+<h2>Education</h2>
+<ul>
+  <li>
+    L. N. Gumilyov Eurasian National University
+    <ul>
+      <li>biology BS (2011-2015)</li>
+    </ul>
+  </li>
+  <li>
+    Saint Petersburg State University
+    <ul>
+      <li> biology, bioinformatics, biochemistry MS (2015-2016, 2017-2018)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>English</h2>
+<p>Upper-Intermediate (B2)</p>
+      </div>
+  </body>
+</html>
