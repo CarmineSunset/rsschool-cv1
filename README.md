@@ -1,1 +1,1 @@
-https://CarmineSunset.github.io/rsschool-cv/
+ https://carminesunset.github.io/rsschool-cv/cv
