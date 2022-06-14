@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #EAF6F6;
+}
+
+h1 {
+margin: 50px auto 0 auto;
+font-family: 'Sacramento', cursive;
+font-size: 5.625rem;
+color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+footer {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  margin-top: 50px;
+}
+
+ul {
+  margin: auto;
+  padding: 0;
+}
+
+a { 
+  text-decoration: none; 
+  color: #66BFBF;
+ } 
+
+.centered {
+  margin: auto;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.footer-link {
+  margin-bottom: 20px;
+  color: #11999E;
+}
+
+.skills {
+  text-align: center;
+
+}
+
+.rs-logo {
+  width: 100px;
+}
