@@ -12,20 +12,40 @@
 
 
   <header>
-    <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/274/woman-technologist_1f469-200d-1f4bb.png" alt="ava">
+    <img src="assets/img/avatar.png" alt="avatar">
 
     <h1>Alyona Maslova</h1>
   </header>
-
-  <section class="centered">
+  <div class="centered">
+    <nav><ul>
+      <li>
+        <a href="#profile">Profile</a>
+      </li>
+      <li>
+        <a href="#skills">Skills</a>
+      </li>
+      <li>
+        <a href="#work-exp">Work Expiriencs</a>
+      </li>
+      <li>
+        <a href="#education">Education</a>
+      </li>
+      <li>
+        <a href="#english">English</a>
+      </li>
+      <li>
+        <a href="#contact-me">Contacts</a>
+      </li>
+    </ul></nav>
  <div class="profile">
-   <h2>Profile</h2>
-     <p>Junior web developer.
-     I like self-study, but I also love teamwork.</p>
+   <h2 id="profile">Profile</h2>
+   <main>Junior web developer. I lile both fronted and backend development, as well as mobile development. 
+    I like self-study, but I also love teamwork.</main>
+   
  </div>
 
     <div class="skills">
-      <h2>Skills</h2>
+      <h2 id="skills">Skills</h2>
 
 
 <h3>Programming languages</h3>
@@ -54,35 +74,42 @@
 
 
   <div class="work-exp">
-    <h2>Work Expiriencs &amp; Code Examples</h2>
+    <h2 id="work-exp">Work Expiriencs &amp; Code Examples</h2>
 
     <ul>
       <li>
-        <a href="https://github.com/CarmineSunset/Profitable-App-Profiles-for-the-App-Store-and-Google-Play-Markets">Profitable App Profiles for the App Store and Google Play Markets</a>
+        <a href="https://github.com/CarmineSunset/News">Django News Project</a>
       </li>
       <li>
-        <a href="https://github.com/CarmineSunset/Exploring-Hacker-News-Posts">Exploring Hacker News Post</a>
-      </li>
-      <li>
-        <a href="https://github.com/CarmineSunset/JSMovieDB">JSMovieDB</a>
+        <a href="https://github.com/CarmineSunset/PasswordManagerWithGUI-">Password Manager WithGUI</a>
       </li>
     </ul>
+
+    <pre><code>function solution(number){
+      var sum = 0;
+      for (var i = 3; i &lt; number; i++) {
+        if (i % 3 == 0 || i % 5 == 0) {
+          sum += i;
+        }
+      }
+      return sum;
+    }</code></pre>
   </div>
 
 
-    <h2>Education</h2>
+    <h2 id="education">Education</h2>
     <ul>
       <li>The complete web development bootcamp by Angela Yu</li>
       <li>Data Quest: Data analysis with Python</li>
     </ul>
 
-    <h2>English</h2>
+    <h2 id="english">English</h2>
     <p>Upper-Intermediate (B2)</p>
     <div class="contact-me">
-      <h2>Contact me</h2>
+      <h2 id="contact-me">Contact me</h2>
       <ul>
         <li>
-          <strong>Discord</strong>: NovemberRain#2713
+          <strong>Discord</strong>: nodrama#2713
         </li>
         <li>
           <strong>Email</strong>: al.mas.lov.a888@gmail.com
@@ -90,11 +117,12 @@
       </ul>
 
     </div>
-  </section>
+  </div>
 
 <footer>
   <a class="footer-link" href="https://github.com/CarmineSunset">GitHub</a>
-  <p class="copyright">© 2021</p>
+  <p class="copyright">© 2022</p>
+  <a href="https://rs.school/js/"><img src="assets/svg/rs_school_js.svg" alt="logo" class="rs-logo"></a>
 
 </footer>
 

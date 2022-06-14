@@ -38,6 +38,11 @@ ul {
   padding: 0;
 }
 
+a { 
+  text-decoration: none; 
+  color: #66BFBF;
+ } 
+
 .centered {
   margin: auto;
 }
@@ -58,6 +63,6 @@ ul {
 
 }
 
-.work-exp {
-
+.rs-logo {
+  width: 100px;
 }
